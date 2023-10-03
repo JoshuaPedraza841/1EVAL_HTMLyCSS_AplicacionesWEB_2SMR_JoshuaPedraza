@@ -1,0 +1,28 @@
+table,
+th,
+td {
+  border: 1px solid red;
+  border-collapse: collapse;
+  padding: 20px;
+  text-align: center;
+  color: #fff;
+  text-shadow: 0 0 5px #f40303, 0 0 25px #f40303, 0 0 50px #f40303,
+    0 0 100px #f40303;
+
+  text-transform: uppercase;
+  transition: 1s;
+
+  animation: alternate;
+}
+caption {
+  text-align: center;
+  margin-bottom: 25px;
+  margin-top: 30px;
+
+}
+body{
+    background-color: black;
+}
+table{
+    margin: auto;
+}
