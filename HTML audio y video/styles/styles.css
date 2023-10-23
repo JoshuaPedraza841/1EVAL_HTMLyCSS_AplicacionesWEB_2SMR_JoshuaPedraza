@@ -7,29 +7,18 @@ h1{
     color: black;
     background-color: white;
 }
-div p{
-    color: red;
-    background-color: aqua;
-}
-div,p,h1{
-    border: 10px solid red;
-    margin: 20px;
-}
-body{
-    background-color: black;
-}
-p,h1{
+
+
+
+
+#huertos {
+    padding: 1em;
+    color: whitesmoke;
+    font-weight: bolder;
+    border: 1px red solid;
     border-collapse: collapse;
-  padding: 20px;
-  text-align: center;
-  color: #fff;
-  text-shadow: 0 0 5px #f40303, 0 0 25px #f40303, 0 0 50px #f40303,
-    0 0 100px #f40303;
-
-  text-transform: uppercase;
-  transition: 1s;
-
-  animation: alternate;
+    background-image: url(7-consejos-huerto-sano.jpg)
+    
 }
 
 
