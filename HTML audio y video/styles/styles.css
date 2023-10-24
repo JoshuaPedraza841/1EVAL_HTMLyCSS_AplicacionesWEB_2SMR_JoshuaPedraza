@@ -1,24 +1,25 @@
-h1{
-    color: blue;
-    background-color: yellow;
-    text-align: center;
+@import url("https://fonts.googleapis.com/css2?family=Playpen+Sans:wght@100&family=Sedgwick+Ave+Display&family=Signika+Negative:wght@300&display=swap");
+h1 {
+  color: blue;
+  background-color: yellow;
+  text-align: center;
+  font-family: "Playpen Sans", cursive;
+  font-family: "Sedgwick Ave Display", cursive;
+  font-family: "Signika Negative", sans-serif;
 }
-.especial{
-    color: black;
-    background-color: white;
+.especial {
+  color: black;
+  background-color: white;
 }
-
-
-
 
 #huertos {
-    padding: 1em;
-    color: whitesmoke;
-    font-weight: bolder;
-    border: 1px red solid;
-    border-collapse: collapse;
-    background-image: url(7-consejos-huerto-sano.jpg)
-    
+  padding: 1em;
+  color: whitesmoke;
+  font-weight: bolder;
+  border: 1px red solid;
+  border-collapse: collapse;
+  background-image: url(7-consejos-huerto-sano.jpg);
 }
-
-
+body {
+  background-color: red;
+}
