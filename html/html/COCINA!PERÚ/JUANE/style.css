@@ -1,0 +1,80 @@
+.Imagen1{
+    width: 350px;
+    height: 350px;
+    border-radius: 50%;
+     
+}
+h1{
+    
+    font-family: 'Bebas Neue', cursive;
+    color: white;
+    font-size: 70;
+}
+.div1{
+    background-image: url(https://th.bing.com/th/id/R.9d524c43090cfbf64da35b394ec95ec2?rik=5uT2YKJw4RZUHA&pid=ImgRaw&r=0);
+    background-repeat: no-repeat;
+    background-size: 1600px 600px;
+    padding: 10px;
+    text-align: center;
+    margin-top: -35px;
+    background-position: center;
+    
+}
+.texto{
+    font-size: 20;
+    font-family: 'Lato', sans-serif;
+    
+}
+h2{
+font-family: 'Bebas Neue', cursive;
+    
+    font-size: 40;
+}
+h3{
+text-align: left;
+font-family: 'Bebas Neue', cursive;  
+ font-size: 40;
+ color: white ;
+ margin-left: 20px;
+ 
+}
+.div2{
+background-color: black;
+
+}
+span{
+    color: red;
+}
+.span1{
+    color: white;
+}
+
+
+.texto2{
+    font-size: 20;
+    font-family: 'Lato', sans-serif;
+    
+    
+}
+.texto3{
+    font-size: 20;
+    font-family: 'Lato', sans-serif;
+    margin-left: 30px;
+    margin-right: 500px;
+    
+   
+}
+
+.columna{
+    display: table-cell;
+    
+
+}
+.subtitulos{
+    color: white;
+    background-color: black;
+}
+ .numeros{
+    color: black;
+    font-size: 30;
+ }
