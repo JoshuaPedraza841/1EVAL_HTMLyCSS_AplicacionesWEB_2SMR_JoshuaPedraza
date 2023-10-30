@@ -9,9 +9,28 @@
             color: blue;
             background-color: yellow;
         }
+        p.p1{
+            color: blue;
+            background-color: red;
+
+        }
+        p.p2{
+            color: red;
+            background-color: purple;
+        }
+        p[class="p1 p2"] {
+            text-transform: uppercase;
+        }
+       
+        body{
+            background-color: aqua;
+        }
+        a:link{
+            color: red;
+        }
+
 
     </style>
-    <link rel="stylesheet" href="styles/styles.css">
 </head>
 <body>
     <h1>Ejercicio Texto</h1>
@@ -38,8 +57,11 @@
     
         Hay golpes en la vida, tan fuertes... Yo no sé!</strong>
     </pre>
-    <p>
-        gg
-    </p>
+    <p class="p1">Parrafo 1</p>
+    <p class="p2">Parrafo 2</p>
+    <p class="p1 p2">Parrafo 3</p>
+    <p class="p2 p1">parrafo 4</p>
+    <p>Este parrafo tiene <a href="#gg">un enlace</a> al siguiente parrafo</p>
+    <p id="gg">HOLA MUNDO</p>
 </body>
 </html>
