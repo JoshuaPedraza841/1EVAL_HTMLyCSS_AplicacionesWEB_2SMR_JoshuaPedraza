@@ -1,0 +1,36 @@
+body{
+    background-color: gray
+}
+
+.container{
+    background-color: greenyellow;
+    margin-top: 50px;
+    margin-left: 200px;
+    margin-right: 200px;
+}
+
+nav, .nav-item{
+    background-color: rgb(27, 23, 23);
+    color: white;
+    padding: 20px;
+    padding-right: 200px;
+}
+
+.fixed-sidebar{
+    border: solid 4px black;
+    width: 150px;
+    height: 800px;
+    position: relative;
+    top: -1200px;
+}
+.fixed-sidebar img{
+    width: 150px;
+}
+ul li{
+    text-align: left;
+}
+nav .nav-item{
+    display: inline;
+    list-style-type: none;
+    width: 100%;
+}
