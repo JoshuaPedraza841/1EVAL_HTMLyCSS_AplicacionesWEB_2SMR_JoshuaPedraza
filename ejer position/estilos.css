@@ -20,8 +20,8 @@ nav, .nav-item{
     border: solid 4px black;
     width: 150px;
     height: 800px;
-    position: relative;
-    top: -1200px;
+    position: fixed;
+    top: 150px;
 }
 .fixed-sidebar img{
     width: 150px;
@@ -34,3 +34,19 @@ nav .nav-item{
     list-style-type: none;
     width: 100%;
 }
+
+/*#li1 img{
+    transform: rotate(330deg);
+}
+*/
+
+figure, img, figcaption{
+    display: inline;
+    list-style-type: none;
+    
+}
+figure img{
+    width: 150px;
+}
+
+    
