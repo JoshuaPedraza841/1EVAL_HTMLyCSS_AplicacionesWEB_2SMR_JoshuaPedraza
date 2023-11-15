@@ -40,13 +40,15 @@ nav .nav-item{
 }
 */
 
-figure, img, figcaption{
+/*figure, img, figcaption{
     display: inline;
     list-style-type: none;
     
 }
+*/
 figure img{
     width: 150px;
 }
+
 
     
