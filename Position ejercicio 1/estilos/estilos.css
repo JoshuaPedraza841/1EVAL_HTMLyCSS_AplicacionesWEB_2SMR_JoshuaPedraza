@@ -1,0 +1,56 @@
+header h1{
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.sidebar{
+    background-color: black;
+    color: white;
+}
+nav, .menu-item{
+    background-color: black;
+    color: white;
+    margin-bottom: 20px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 5px;
+    padding-right: 200px;
+    
+}
+nav{
+    margin-bottom: 100px;
+}
+nav .menu-item{
+    display: inline;
+    list-style-type: none;
+    width: 100%;
+}
+footer{
+    background-color: rgb(206, 206, 206);
+    text-align: center;
+    padding: 50px;
+}
+
+.course{
+    border: 1px solid black;
+    text-align: center;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    
+    
+    
+}
+.courses{
+    column-count: 3;
+    column-gap: 0cm;
+}
+
+.articles{
+    column-count: 3;
+    text-align: justify;
+    margin-top: 40px;
+    margin-bottom: 150px;
+    column-gap: 80px;
+}
