@@ -6,8 +6,20 @@ header h1{
 .sidebar{
     background-color: black;
     color: white;
+    float: left;
+    height: 747px;
+    width: 200px;
+    margin-right: 80px;
+    
+    
 }
-nav, .menu-item{
+.sidebar .menu-item{
+    text-align: left;
+    padding-top: 25px;
+    padding-left: 10px;
+}
+
+nav .menu-item{
     background-color: black;
     color: white;
     margin-bottom: 20px;
@@ -19,6 +31,14 @@ nav, .menu-item{
 }
 nav{
     margin-bottom: 100px;
+    background-color: black;
+    color: white;
+    margin-bottom: 20px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 5px;
+    padding-right: 200px;
+    margin-bottom: 60px;
 }
 nav .menu-item{
     display: inline;
@@ -29,15 +49,14 @@ footer{
     background-color: rgb(206, 206, 206);
     text-align: center;
     padding: 50px;
+    clear: both;
 }
 
 .course{
     border: 1px solid black;
     text-align: center;
-    border-top-right-radius: 20px;
-    border-top-left-radius: 20px;
-    border-bottom-right-radius: 20px;
-    border-bottom-left-radius: 20px;
+    border-radius: 20px;
+    font-size: small;
     
     
     
@@ -45,12 +64,16 @@ footer{
 .courses{
     column-count: 3;
     column-gap: 0cm;
+    
 }
 
 .articles{
     column-count: 3;
     text-align: justify;
     margin-top: 40px;
-    margin-bottom: 150px;
     column-gap: 80px;
+    font-weight: bold;
+}
+.course p {
+    padding: 20px;
 }
